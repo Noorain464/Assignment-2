@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(1, 14, 27);
+}
+#header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#header h1 {
+font-size: 48px;
+font-weight: 700;
+font-family: "Poppins", sans-serif;
+}
+
+#header h1 a, #header h1 a:hover {
+    font-size: 48px;
+    padding: 0px 0px 0px 70px;
+    color: #dee2e6;
+    text-decoration: none;
+    line-height: 1;
+    display: inline-block;
+
+}
+
+#header h2 {
+padding: 0px 0px 0px 70px ;
+font-size: 24px;
+margin-top: 20px;
+color: #dee2e6;
+}
+
+#header h2 span {
+color: #ffc107;
+border-bottom: 2px solid #1c7d32;
+padding-bottom: 6px;
+}
+
+#header .social-links {
+margin-top: 40px;
+display: flex;
+}
+
+.nav-menu {
+    padding-left: 30px;
+    margin-top: 35px;
+}
+  
+.nav-menu ul {
+    display: flex;    
+}
+  
+.nav-menu li + li {
+    margin-left: 30px;
+}
+  
+.nav-menu a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.nav-menu .active > a{
+    color:#12d640;
+}
+#header .social-links{
+    padding: 0px 0px 0px 70px;
+}
+#header .social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+    
+#header .social-links a:hover {
+    background: #1c7d32;
+}
+
+.social-links .fa-brands{
+    color:white;
+}
