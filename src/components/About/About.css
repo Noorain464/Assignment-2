@@ -1,0 +1,39 @@
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #dee2e6;
+    margin: 4px 10px;
+}
+.content{
+    padding: 0px 15px;
+}
+.content p{
+    margin: 0px 0px 16px;
+    color: #FFFFFF;
+    font : 16px "Open Sans", sans-serif;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.left , .right{
+    list-style: none;
+    padding-bottom: 10px;
+    margin: 0px 0px 16px;
+    color: #FFFFFF;
+    font : 16px "Open Sans", sans-serif;
+}

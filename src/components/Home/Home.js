@@ -24,9 +24,7 @@ function Home(){
                     <a href="https://www.linkedin.com/in/rajaprerak" className="linkedin"><i className="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.github.com/rajaprerak" className="github"><i className="fa-brands fa-github"></i></a>
                     <a href="mailto:rajaprerak@gmail.com" className="google"><i className="fa-brands fa-google"></i></a>
-
                 </div>
-
             </div>
         </div>
     )
