@@ -34,29 +34,29 @@ function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) 
   return (
     <div id="header" className="header-tops">
       <div className="container">
-        <h1><Link to="/">Prerak Raja</Link></h1>
+        <h1><Link to="/">Syeda Noorain</Link></h1>
         <h2>I'm <span className="typing">{displayedText}</span>
         <span class="caret">|</span></h2>
         <nav className="nav-menu">
           <ul>
-            <li className="active"><Link to="/"><span>Home</span></Link></li>
-            <li><Link to="/about"><span>About</span></Link></li>
-            <li><a href="#education"><span>Education</span></a></li>
-            <li><a href="#experience"><span>Experience</span></a></li>
-            <li><a href="#portfolio"><span>Projects</span></a></li>
-            <li><a href="#skills"><span>Skills</span></a></li>
-            <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing"><span>Resume</span></a></li>
-            <li><a href="#contacts"><span>Contact</span></a></li>
+            <li className="active"><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing">Resume</a></li>
+            <li><a href="#contacts">Contact</a></li>
           </ul>
         </nav>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/rajaprerak" className="linkedin">
+          <a href="https://www.linkedin.com/in/syeda-noorain-b809a22a2" className="linkedin">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://www.github.com/rajaprerak" className="github">
+          <a href="https://www.github.com/Noorain464" className="github">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="mailto:rajaprerak@gmail.com" className="google">
+          <a href="mailto:noorainsyeda464@gmail.com" className="google">
             <FontAwesomeIcon icon={faGoogle} />
           </a>
         </div>

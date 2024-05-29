@@ -60,6 +60,7 @@ display: flex;
 }
   
 .nav-menu li{
+    list-style: none;
     margin-left: 30px;
 }
   
@@ -72,6 +73,28 @@ display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+
+.nav-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0px;
+    height: 2px;
+    background-color: #ffc107;
+    transform: scaleX(0);
+    transform-origin:bottom left;
+    
+    transition: transform 0.3s ease-out;
+}
+.nav-menu a:hover{
+    color:#12d640; 
+}
+.nav-menu a:hover::after {
+    width: 25px;
+    transform:scaleX(1);
+
+}
+
 .nav-menu .active > a{
     color:#12d640;
 }

@@ -4,7 +4,7 @@ import "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/About/About
 import img from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/profile.jpeg";
 function About(){
     return (
-        
+         
     <div id="about" className="about">
         <Nav/>
         <div className="about-me container">
