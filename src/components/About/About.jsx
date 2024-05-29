@@ -1,7 +1,12 @@
+import React from 'react';
+import Nav from '../Nav/Nav.jsx';
 import "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/About/About.css";
+import img from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/profile.jpeg";
 function About(){
     return (
+        
     <div id="about" className="about">
+        <Nav/>
         <div className="about-me container">
 
             <div className="section-title">
@@ -10,7 +15,7 @@ function About(){
 
             <div className="row">
                 <div>
-                    <img src="assets/img/profile.jpeg" className="img-fluid" alt="" />
+                    <img src={img} className="img-fluid" alt="" />
                 </div>
                 <div className= "content">
                     <p>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure
