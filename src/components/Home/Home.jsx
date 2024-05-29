@@ -1,15 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
-function Home() {
+function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) {
+  const [displayedText, setDisplayedText] = useState("");
+  const [isDeleting, setDeleting] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const handleTyping = () => {
+      if (!isDeleting) {
+        if (displayedText.length < text[index].length) {
+          setDisplayedText((prev) => prev + text[index].charAt(displayedText.length));
+        } else {
+          setTimeout(() => setDeleting(true), duration);
+        }
+      } else {
+        if (displayedText.length > 0) {
+          setDisplayedText((prev) => prev.slice(0, -1));
+        } else {
+          setDeleting(false);
+          setIndex((prev) => (prev + 1) % text.length);
+        }
+      }
+    };
+
+    const timer = setTimeout(handleTyping, isDeleting ? deletingSpeed : typingSpeed);
+    return () => clearTimeout(timer);
+  }, [displayedText, isDeleting, index, text, typingSpeed, deletingSpeed, duration]);
+
   return (
     <div id="header" className="header-tops">
       <div className="container">
         <h1><Link to="/">Prerak Raja</Link></h1>
-        <h2>I'm <span className="typing"></span></h2>
+        <h2>I'm <span className="typing">{displayedText}</span>
+        <span class="caret">|</span></h2>
         <nav className="nav-menu">
           <ul>
             <li className="active"><Link to="/"><span>Home</span></Link></li>

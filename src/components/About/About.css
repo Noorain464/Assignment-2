@@ -13,9 +13,13 @@
     content: "";
     width: 120px;
     height: 1px;
-    display: inline-block;
     background: #dee2e6;
     margin: 4px 10px;
+}
+.image img{
+    margin: 3em;
+    height: 10em;
+    width:10em;
 }
 .content{
     padding: 0px 15px;

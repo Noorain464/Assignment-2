@@ -8,9 +8,17 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home 
+            text={[
+              "Coder",
+              "Developer",
+              "AI Enthusiast",
+            ]}
+            typingSpeed={100}
+            deletingSpeed={50}
+            duration={1000}
+        />} />
         <Route path="/about" element={<About />} />
-        {/* Add other routes as needed */}
       </Routes>
     </Router>
   );

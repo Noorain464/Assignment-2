@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Nav.css";
 function Nav(){
     return (
-        <div className="container">
-            <h1><Link to="/">Prerak Raja</Link></h1>
-            <nav className="nav-menu">
+            <nav className="menu">
+                <h1><Link to="/">Prerak Raja</Link></h1>
                 <ul>
                     <li className="active"><Link to="/"><span>Home</span></Link></li>
                     <li><Link to="/about"><span>About</span></Link></li>
@@ -16,7 +16,6 @@ function Nav(){
                     <li><a href="#contacts"><span>Contact</span></a></li>
                 </ul>
             </nav>
-        </div>
     )
 }
 export default Nav;
