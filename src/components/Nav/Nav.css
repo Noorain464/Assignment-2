@@ -1,46 +1,67 @@
-.menu {
+nav{
     position: fixed;
+    height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
-    height: 3em;
-    width: 100vw;
+    box-sizing: border-box;
     background-color: rgb(1, 14, 27);
 }
-
-.menu h1 {
-    padding-left: 70px;
-    font-size: 48px;
-    font-weight: 600;
-    color: #dee2e6;
-}
-
-.menu ul {
-    padding-left: 40px;
+.container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    margin: 0px 70px;
 }
 
-.menu ul li {
-    margin-left: 30px;
+nav .container h1 a{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    font-size: 40px;
 }
 
-.menu ul li a {
+
+.container ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container ul li{
+    margin: 0px 20px;
+}
+.container ul li a {
     text-decoration: none;
-    display: block;
     position: relative;
+    display: block;
     color: #fff;
-    font-size: 19px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    transition: color 0.3s;
 }
 
-.menu ul li a::after {
+.container ul li a::after {
     content: "";
     position: absolute;
+    bottom: -5px;
+    left: 0;
     height: 2px;
-    background-color: #fff; 
-    transition: width 0.3s;
+    background-color: #ffc107;
+    width: 0;
+    transition: width 0.3s ease-out;
 }
 
-.menu ul li a:hover::after {
-    width: 100%; 
+.container a:hover {
+    color: #12d640; 
+}
+
+.container ul li a:hover::after {
+    width: 100%;
 }

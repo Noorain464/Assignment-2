@@ -83,7 +83,6 @@ display: flex;
     background-color: #ffc107;
     transform: scaleX(0);
     transform-origin:bottom left;
-    
     transition: transform 0.3s ease-out;
 }
 .nav-menu a:hover{
@@ -94,9 +93,9 @@ display: flex;
     transform:scaleX(1);
 
 }
-
 .nav-menu .active > a{
     color:#12d640;
+    
 }
 #header .social-links{
     padding: 0px 0px 0px 70px;
