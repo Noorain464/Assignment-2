@@ -5,9 +5,9 @@ import "./Nav.css";
 function Nav() {
     return (
         <nav>
-            <div className="container"> 
-                <h1><Link to="/">Prerak Raja</Link></h1>
-                <ul>
+            <div className="menu"> 
+                <h1><Link to="/">Syeda Noorain</Link></h1>
+                <ul className="navbar">
                     <li className="active"><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><a href="#education">Education</a></li>

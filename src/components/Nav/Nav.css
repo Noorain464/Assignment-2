@@ -9,7 +9,7 @@ nav{
     box-sizing: border-box;
     background-color: rgb(1, 14, 27);
 }
-.container {
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,9 @@ nav{
     margin: 0px 70px;
 }
 
-nav .container h1 a{
+nav .menu h1 a{
+    color: #fff;
+    text-decoration: none;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     flex-wrap: wrap;
@@ -27,16 +29,16 @@ nav .container h1 a{
 }
 
 
-.container ul {
+.menu .navbar {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.container ul li{
+.menu .navbar li{
     margin: 0px 20px;
 }
-.container ul li a {
+.menu .navbar li a {
     text-decoration: none;
     position: relative;
     display: block;
@@ -47,7 +49,7 @@ nav .container h1 a{
     transition: color 0.3s;
 }
 
-.container ul li a::after {
+.menu .navbar li a::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -58,10 +60,10 @@ nav .container h1 a{
     transition: width 0.3s ease-out;
 }
 
-.container a:hover {
+.menu .navbar li a:hover {
     color: #12d640; 
 }
 
-.container ul li a:hover::after {
-    width: 100%;
+.menu .navbar li a:hover::after {
+    width: 25px;
 }
