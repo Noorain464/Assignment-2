@@ -1,20 +1,30 @@
 .about {
-    background-color: #0d1b2a;
-    color: #fff;
-    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    opacity: 1;
+    padding-bottom: 0px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0);
+    padding: 30px;
+    margin: 0px 70px;
 }
 
 .section-title h2 {
+    display: block;
     font-size: 14px;
+    padding: 0;
+    margin: 0 0 20px 0;
     font-weight: 500;
     line-height: 1px;
-    margin: 0 0 20px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #dee2e6;
     font-family: "Poppins", sans-serif;
-  }
-  
+}
+
 .section-title h2::after {
     content: "";
     width: 120px;
@@ -24,80 +34,73 @@
     margin: 4px 10px;
 }
 
-.about-me {
+.container .row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-    margin: 70px;
+.image {
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .image img {
-    width: 15%;
-    height:15% ;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .content {
-    max-width: 600px;
-    text-align: left;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #dee2e6;
 }
 
 .content p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
 }
 
-.details {
+.content .row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.details ul {
-    list-style: none;
-    padding: 0;
+.content .col1, .content .col2 {
+    flex: 1;
+    padding: 0 15px;
 }
-
-.details ul li {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-}
-
-.interests {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.interests h2 {
-    color: #ffc107;
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-}
-
-.interest-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+.box{
+    position: relative;
+    width: 25%;
     margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
 }
-
-.interest-item {
-    background-color: #1a1a1a;
-    padding: 10px 20px;
-    border-radius: 5px;
+.box .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #09203a;
+    transition: ease-in-out 0.3s;
+}
+.box .icon-box .icon-style{
+    padding-right:10px ;
+    color:#ffbb2c;
+    font-size: x-large;
+}
+.box .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
     color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
 }
