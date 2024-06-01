@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Education from './components/Education/Education';
+import Skills from './components/Skills/Skill';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             duration={1000}
         />} />
         <Route path="/about" element={<About />} />
+        <Route path='/education' element={<Education />} />
+        <Route path='/skills' element={<Skills />} />
       </Routes>
     </Router>
   );

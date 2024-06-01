@@ -1,0 +1,62 @@
+section.skills {
+    position: absolute;
+    top: 70px;
+    bottom: auto;
+    opacity: 1;
+    width: 90%;
+    padding-bottom: 0px;
+}
+section .skills .container{
+    padding: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+}
+.skills .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.skills .row .col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.skills .icon-box {
+    text-align: center;
+    padding: 40px 40px;
+    transition: all ease-in-out 0.3s;
+    margin: 10px;
+    width: 100%;
+    background-color:#fff ;
+}
+.skills .icon-box h4 {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.skills .icon-box p {
+    display: block;
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.skills .icon-box p > img{
+    vertical-align: middle;
+    border-style: none;
+}
