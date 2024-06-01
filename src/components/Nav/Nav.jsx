@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-
+import pdf from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/Profile.pdf";
 function Nav() {
     return (
         <nav>
@@ -14,8 +14,8 @@ function Nav() {
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><Link to="/skills">Skills</Link></li>
-                    <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing">Resume</a></li>
-                    <li><a href="#contacts">Contact</a></li>
+                    <li><Link to={pdf}>Resume</Link></li>
+                    <li><Link to="/contacts">Contact</Link></li>
                 </ul>
             </div>
         </nav>

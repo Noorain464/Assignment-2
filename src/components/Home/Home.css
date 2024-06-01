@@ -1,20 +1,18 @@
-body{
+body {
     background-color: rgb(1, 14, 27);
 }
-#header{
-    height: 90px;
-    position: fixed;
-}
+
 #header {
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
 }
+
 #header h1 {
     padding: 0px 0px 0px 70px;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
 
@@ -24,47 +22,44 @@ body{
     text-decoration: none;
     line-height: 1;
     display: inline-block;
-
 }
 
 #header h2 {
-padding-left: 70px;
-font-size: 24px;
-margin-top: 20px;
-color: #dee2e6;
+    padding-left: 70px;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #dee2e6;
 }
 
 #header h2 .typing {
     font-family: "Raleway", sans-serif;
     font-weight: lighter;
-    color:#12d640;
+    color: #12d640;
     border-bottom: 2px solid #1c7d32;
     padding-bottom: 6px;
 }
-#header h2 .caret{
+
+#header h2 .caret {
     color: #ffc107;
     font-weight: lighter;
 }
+
 #header .social-links {
-margin-top: 40px;
-display: flex;
+    margin-top: 40px;
+    display: flex;
 }
 
-.nav-menu {
-    margin-top: 35px;
-}
-  
-.nav-menu ul {
+.header-nav-menu ul {
     padding-left: 40px;
-    display: flex;    
+    display: flex;
 }
-  
-.nav-menu li{
+
+.header-nav-menu li {
     list-style: none;
     margin-left: 30px;
 }
-  
-.nav-menu a {
+
+.header-nav-menu a {
     text-decoration: none;
     display: block;
     position: relative;
@@ -74,32 +69,35 @@ display: flex;
     font-weight: 400;
 }
 
-.nav-menu a::after {
+.header-nav-menu a::after {
     content: "";
     position: absolute;
     bottom: 0;
-    left:0px;
+    left: 0px;
     height: 2px;
     background-color: #ffc107;
     transform: scaleX(0);
-    transform-origin:bottom left;
+    transform-origin: bottom left;
     transition: transform 0.3s ease-out;
 }
-.nav-menu a:hover{
-    color:#12d640; 
-}
-.nav-menu a:hover::after {
-    width: 25px;
-    transform:scaleX(1);
 
+.header-nav-menu a:hover {
+    color: #12d640;
 }
-.nav-menu .active > a{
-    color:#12d640;
-    
+
+.header-nav-menu a:hover::after {
+    width: 25px;
+    transform: scaleX(1);
 }
-#header .social-links{
+
+.header-nav-menu .active > a {
+    color: #12d640;
+}
+
+#header .social-links {
     padding: 0px 0px 0px 70px;
 }
+
 #header .social-links a {
     font-size: 16px;
     display: flex;
@@ -113,11 +111,11 @@ display: flex;
     width: 40px;
     height: 40px;
 }
-    
+
 #header .social-links a:hover {
     background: #1c7d32;
 }
 
-.social-links .fa-brands{
-    color:white;
+.social-links .fa-brands {
+    color: white;
 }

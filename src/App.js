@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Education from './components/Education/Education';
 import Skills from './components/Skills/Skill';
+import Contact from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Contact/Contact.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path='/education' element={<Education />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/contacts' element={<Contact/>} />
       </Routes>
     </Router>
   );

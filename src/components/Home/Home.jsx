@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import pdf from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/Profile.pdf";
 
 function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) {
   const [displayedText, setDisplayedText] = useState("");
@@ -37,7 +38,7 @@ function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) 
         <h1><Link to="/">Syeda Noorain</Link></h1>
         <h2>I'm <span className="typing">{displayedText}</span>
         <span class="caret">|</span></h2>
-        <nav className="nav-menu">
+        <nav className="header-nav-menu">
           <ul>
             <li className="active"><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
@@ -45,8 +46,8 @@ function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) 
             <li><a href="#experience">Experience</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><Link to='/skills'>Skills</Link></li>
-            <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing">Resume</a></li>
-            <li><a href="#contacts">Contact</a></li>
+            <li><Link to={pdf}>Resume</Link></li>
+            <li><Link to="/contacts">Contact</Link></li>
           </ul>
         </nav>
         <div className="social-links">
