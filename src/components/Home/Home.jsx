@@ -3,7 +3,6 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import pdf from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/Profile.pdf";
 
 function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) {
   const [displayedText, setDisplayedText] = useState("");
