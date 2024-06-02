@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Home/Home.jsx';
-import About from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/About/About.jsx';
-import Education from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Education/Education.jsx';
-import Experience from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Experience/Experience.jsx";
-import Project from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Projects/Project.jsx";
-import Skills from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Skills/Skill.jsx';
-import Resume from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Resume/Resume.jsx";
-import Contact from '/home/syeda/Desktop/Assignment-2/assignment-2/src/components/Contact/Contact.jsx';
+import Home from './components/Home/Home.jsx';
+import About from './components/About/About.jsx';
+import Education from './components/Education/Education.jsx';
+import Experience from "./components/Experience/Experience.jsx";
+import Project from "./components/Projects/Project.jsx";
+import Skills from './components/Skills/Skill.jsx';
+import Resume from "./components/Resume/Resume.jsx";
+import Contact from './components/Contact/Contact.jsx';
 
 function App() {
   return (
