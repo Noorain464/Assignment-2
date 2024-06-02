@@ -1,10 +1,9 @@
 import React from 'react';
 import Nav from '../Nav/Nav.jsx';
 import "./About.css";
-import img from "../assets/profile.jpeg";
+import img from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/PIc.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faDatabase, faCamera, faE, faCode, faChartSimple, faFileLines , faImage} from '@fortawesome/free-solid-svg-icons';
-// import { faGlobe, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 function About(){
     return (
@@ -27,14 +26,14 @@ function About(){
                             <div className="row">
                                 <div className="col1">
                                     <ul>
-                                        <li><strong>Birthday:</strong> 12 October 1996</li>
-                                        <li><strong>Phone:</strong> +1 480-401-8112</li>
+                                        <li><strong>Birthday:</strong> 4 June 2004</li>
+                                        <li><strong>Phone:</strong> +91 9972521333</li>
                                     </ul>
                                 </div>
                                 <div className="col2">
                                     <ul>
-                                        <li><strong>City:</strong> Tempe, AZ</li>
-                                        <li><strong>Email:</strong> rajaprerak@gmail.com</li>
+                                        <li><strong>City:</strong> Mysore</li>
+                                        <li><strong>Email:</strong> noorainsyeda464@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,49 +48,49 @@ function About(){
                 <div className="row">
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faGlobe} className='icon-style s' />
+                            <FontAwesomeIcon icon={faGlobe} className='icon-style' />
                             <h3>Software Development</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faDatabase} className='icon-style d'/>
+                            <FontAwesomeIcon icon={faDatabase} className='icon-style'/>
                             <h3>Machine Learning</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faCamera} className='icon-style c'/>
+                            <FontAwesomeIcon icon={faCamera} className='icon-style'/>
                             <h3>Computer Vision</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faE} className='icon-style n'/>
+                            <FontAwesomeIcon icon={faE} className='icon-style'/>
                             <h3>Natural Language Processing</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faCode} className='icon-style se'/>
+                            <FontAwesomeIcon icon={faCode} className='icon-style'/>
                             <h3>Software Engineering</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faChartSimple} className='icon-style v'/>
+                            <FontAwesomeIcon icon={faChartSimple} className='icon-style'/>
                             <h3>Visualization</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faFileLines} className='icon-style a'/>
+                            <FontAwesomeIcon icon={faFileLines} className='icon-style'/>
                             <h3>Algorithms</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="icon-box">
-                            <FontAwesomeIcon icon={faImage} className='icon-style i'/>
+                            <FontAwesomeIcon icon={faImage} className='icon-style'/>
                             <h3>Image Processing</h3>
                         </div>
                     </div>

@@ -31,6 +31,7 @@ section .skills .container{
 }
 .skills .row .col{
     position: relative;
+    display: flex;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;

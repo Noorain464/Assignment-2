@@ -88,8 +88,11 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #09203a;
+    background-color: #09203a;
     transition: ease-in-out 0.3s;
+}
+.box .icon-box:hover{
+    background-color: rgb(4, 41, 81);
 }
 .box .icon-box .icon-style{
     padding-right:10px ;
