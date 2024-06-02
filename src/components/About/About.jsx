@@ -41,7 +41,7 @@ function About(){
                     </div>
                 </div>
             <div className="interest container">
-                <div class="section-title">
+                <div className="section-title">
                     <h2>Interests</h2>
                 </div>
 
