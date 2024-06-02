@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home/Home.jsx';
-import About from './components/About/About.jsx';
-import Education from './components/Education/Education.jsx';
-import Experience from "./components/Experience/Experience.jsx";
-import Project from "./components/Projects/Project.jsx";
-import Skills from './components/Skills/Skill.jsx';
-import Resume from "./components/Resume/Resume.jsx";
-import Contact from './components/Contact/Contact.jsx';
+import Home from './src/components/Home/Home.jsx';
+import About from './src/components/About/About.jsx';
+import Education from './src/components/Education/Education.jsx';
+import Experience from "./src/components/Experience/Experience.jsx";
+import Project from "./src/components/Projects/Project.jsx";
+import Skills from './src/components/Skills/Skill.jsx';
+import Resume from "./src/components/Resume/Resume.jsx";
+import Contact from './src/components/Contact/Contact.jsx';
 
 function App() {
   return (
