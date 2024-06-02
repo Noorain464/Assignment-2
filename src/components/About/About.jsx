@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from '../Nav/Nav.jsx';
+import Nav from "../Nav/Nav";
 import "./About.css";
-import img from "./components/assets/PIc.jpeg";
+import img from "../assets/PIC.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faDatabase, faCamera, faE, faCode, faChartSimple, faFileLines , faImage} from '@fortawesome/free-solid-svg-icons';
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import Nav from "./components/Nav/Nav.jsx";
+import Nav from "../Nav/Nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot, faPhone, faShareNodes } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faGoogle, faLinkedin } from "@fortawesome/free-brands-svg-icons";

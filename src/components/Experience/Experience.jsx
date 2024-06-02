@@ -1,7 +1,7 @@
 import React from "react";
-import "./src/components/Experience/Experience.css";
-import gif from "./components/assets/coming-soon-button-sliding-mobile-art-oeva2rqfq38o1vd0.gif";
-import Nav from "./components/Nav/Nav.jsx";
+import "../Experience/Experience.css";
+import gif from "../assets/coming.gif";
+import Nav from "../Nav/Nav";
 function Experience(){
     return(
         <>

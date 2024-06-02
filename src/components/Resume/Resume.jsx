@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../Nav/Nav";
-import gif from "./components/assets/coming-soon-button-sliding-mobile-art-oeva2rqfq38o1vd0.gif";
+import gif from "../assets/coming.gif";
 function Resume(){
     return(
         <>
