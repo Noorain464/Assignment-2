@@ -1,8 +1,8 @@
 import React from "react";
 import "./Educations.css"
 import Nav from "../Nav/Nav";
-import img2 from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/management-1.jpg";
-import img1 from "/home/syeda/Desktop/Assignment-2/assignment-2/src/components/assets/woolf.jpeg";
+import img2 from "./src/components/assets/management-1.jpg";
+import img1 from "./src/components/assets/woolf.jpeg";
 function Education(){
     return(
         <>
