@@ -42,10 +42,8 @@ function Home({ text, typingSpeed = 100, deletingSpeed = 50, duration = 1000 }) 
             <li className="active"><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/education">Education</Link></li>
-            <li><Link to="/experience">Experience</Link></li>
             <li><Link to="/project">Projects</Link></li>
             <li><Link to='/skills'>Skills</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
             <li><Link to="/contacts">Contact</Link></li>
           </ul>
         </nav>

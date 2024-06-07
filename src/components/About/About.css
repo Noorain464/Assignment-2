@@ -63,6 +63,7 @@
 
 .content p {
     margin-top: 0;
+    font-size:20px;
     margin-bottom: 1rem;
     display: block;
 }
@@ -75,6 +76,9 @@
 .content .col1, .content .col2 {
     flex: 1;
     padding: 0 15px;
+}
+.content ul li {
+    font-size: 20px;
 }
 .box{
     position: relative;
