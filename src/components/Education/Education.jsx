@@ -40,17 +40,6 @@ function Education(){
                 </div>
                 </div>
             </div>
-        
-        
-            <div className="portfolio">
-            <div className="container">
-            <div className="section-title">
-                <h2>Online Certification</h2>
-            </div>
-        
-            
-            </div>
-            </div>
         </section>
         </>
     )
