@@ -21,6 +21,7 @@ function Skill(){
                             <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt=""/>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" height="60" width="90"/>
                             <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="" height="70" width="130"/>
+                            <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="" height="60" width="110"/>
                             </p>
                         </div>
                         <div className="icon-box">
