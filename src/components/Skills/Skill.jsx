@@ -28,6 +28,9 @@ function Skill(){
                         <h4>Frameworks</h4>
                             <p>
                                 <img src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg" alt=""/>
+                                <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt=""/>
+                                <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt=""/>
+                                <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt=""/>
                             </p>
                         </div>
                         <div className="icon-box">
