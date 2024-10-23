@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from "../Nav/Nav";
 import "./About.css";
-import img from '../assets/ProfilePic';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import img from '../assets/ProfilePic.jpg'
 import { faGlobe, faDatabase, faCamera, faE, faCode, faChartSimple, faFileLines , faImage} from '@fortawesome/free-solid-svg-icons';
 
 function About(){
