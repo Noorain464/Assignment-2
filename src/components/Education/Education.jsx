@@ -14,7 +14,7 @@ function Education(){
             </div>
             <div className="row">
                 <div className="col">
-                    <div className="education-icon-box" >
+                    {/* <div className="education-icon-box" >
                         <img src={img1} className="img-fluid" alt=""/>
                         <p><em>MS in Computer Science</em></p>
                         <h5>Janurary 2021 - Present</h5>
@@ -24,7 +24,7 @@ function Education(){
                             <li>Cloud Computing</li>
                             <li>Foundation Of Algorithms</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="education-icon-box">
                     <img src={img2} className="img-fluid" alt="" />
                     <p><em>BS in Computer Science</em></p>
